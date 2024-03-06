@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/Downloads/iHyperTime-main/.idea/iHyperTime-main.iml" filepath="$USER_HOME$/Downloads/iHyperTime-main/.idea/iHyperTime-main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/supp.iml" filepath="$PROJECT_DIR$/.idea/supp.iml" />
     </modules>
   </component>

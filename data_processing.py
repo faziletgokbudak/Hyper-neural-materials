@@ -105,7 +105,7 @@ def generate_nn_datasets(brdf, nsamples, dataset, pct=1):
     rvectors = coords.rangles_to_rvectors(*rangles)
 
     if dataset == 'MERL':
-        median = fastmerl.Merl('merl_median.binary')
+        median = fastmerl.Merl('data/merl_median.binary')
         median_vals = brdf_values(rvectors, brdf=median)
 
     elif dataset == 'EPFL':

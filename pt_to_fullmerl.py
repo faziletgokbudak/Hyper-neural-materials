@@ -66,7 +66,7 @@ def h5_to_fullmerl(h5, destdir=None):
     pred_brdf = db_model(model_input)['model_out']
 
     if args.dataset == 'MERL':
-        median = fastmerl.Merl('merl_median.binary')
+        median = fastmerl.Merl('data/merl_median.binary')
         median_vals = brdf_values(rvectors.T.detach().numpy(), brdf=median)
         median_vals = np.clip(median_vals, 1e-6, np.inf)
     elif args.dataset == 'EPFL':
