@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 import os.path as op
 
-from common import get_mgrid
+from utils.common import get_mgrid
 
 from torch.utils.data import Dataset, TensorDataset, DataLoader
 
@@ -13,9 +13,7 @@ device = 'cpu'  # 'cuda' or 'cpu'
 Xvars = ['hx', 'hy', 'hz', 'dx', 'dy', 'dz']
 Yvars = ['brdf_r', 'brdf_g', 'brdf_b']
 
-import coords
-import common
-import fastmerl
+from utils import coords, common, fastmerl
 
 
 def brdf_to_rgb(rvectors, brdf):

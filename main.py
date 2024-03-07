@@ -6,7 +6,7 @@ import argparse
 from functools import partial
 from sklearn.metrics import mean_squared_error
 
-from common import *
+from utils.common import *
 from models import *
 from data_processing import *
 

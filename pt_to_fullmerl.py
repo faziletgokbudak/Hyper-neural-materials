@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 import time
-import fastmerl
 import glob
 import os, sys
 import os.path as op
-import coords
+from utils import coords, fastmerl
 import numpy as np
 import argparse
 from pathlib import Path
