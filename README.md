@@ -2,7 +2,7 @@
 [![torch](https://img.shields.io/badge/torch-1.8.1+-green)](https://pytorch.org/)
 
 
-# Hyper Neural Materials
+# Hypernetworks for Generalizable BRDF Representation, ECCV 2024
 
 [Project page](https://faziletgokbudak.github.io/hyper-page/) | [Arxiv](https://arxiv.org/abs/2311.15783)
 
@@ -60,7 +60,7 @@ python3 pt_to_fullmerl.py ../pt_results/ ../fullbin_results/
 If you use this code for your research, please cite our paper:
 ```
 @article{gokbudak2023hypernetworks,
-  title      = {Hypernetworks for Generalizable BRDF Estimation},
+  title      = {Hypernetworks for Generalizable BRDF Representation},
   author     = {Fazilet Gokbudak and Alejandro Sztrajman and Chenliang Zhou and Fangcheng Zhong and Rafal Mantiuk and Cengiz Oztireli},
   journal    = {arXiv preprint arXiv:2311.15783},
   year       = {2023}
