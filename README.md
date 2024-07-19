@@ -62,7 +62,7 @@ If you use this code for your research, please cite our paper:
 @article{gokbudak2023hypernetworks,
   title      = {Hypernetworks for Generalizable BRDF Representation},
   author     = {Fazilet Gokbudak and Alejandro Sztrajman and Chenliang Zhou and Fangcheng Zhong and Rafal Mantiuk and Cengiz Oztireli},
-  journal    = {arXiv preprint arXiv:2311.15783},
-  year       = {2023}
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  year      = {2024}
 }
 ```
